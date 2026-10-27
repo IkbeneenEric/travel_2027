@@ -6,6 +6,32 @@
 .visual-head{display:flex;align-items:end;justify-content:space-between;gap:12px;margin-top:26px;margin-bottom:13px}.visual-head h3{margin:0;font-size:25px}.visual-head small{color:#73857b}.sight-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}.sight-photo{border-radius:11px;overflow:hidden;background:#e7eee6;min-height:170px;display:block;text-decoration:none;position:relative;border:1px solid #dfebe0}.sight-photo img{display:block;width:100%;height:172px;object-fit:cover}.sight-photo strong{font:600 12px/1.45 'DM Sans',sans-serif;display:block;padding:9px 10px;min-height:54px}.sight-photo .photo-status{height:172px;display:grid;place-content:center;text-align:center;color:#779083;font-size:12px;padding:12px}.sight-photo .photo-status a{color:#214f45}.photo-source{font-size:10px;color:#718579;padding:0 10px 10px;display:block}.photo-loading{animation:pulse 1.4s ease-in-out infinite alternate}@keyframes pulse{from{opacity:.45}to{opacity:1}}.day-sights{margin-top:14px}.day-sights .sight-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.day-sights .sight-photo img{height:130px}.day-sights .sight-photo .photo-status{height:130px}.route-list .caps{margin-bottom:8px}@media(max-width:620px){.sight-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.sight-photo img,.sight-photo .photo-status{height:126px}.sight-photo{min-height:130px}.route-row{grid-template-columns:80px 1fr}}
 
 .details-zone{margin:30px 0 0;background:#fff;border-radius:23px;box-shadow:0 12px 38px #173b3010;padding:32px}.details-zone h3{font-size:27px;margin:8px 0 16px}.detail-cols{display:grid;grid-template-columns:1fr 1fr;gap:25px}.detail-block{background:#f8f8f4;padding:20px;border-radius:16px}.detail-block h4{font-size:15px;letter-spacing:.03em;margin:0 0 12px}.detail-block ol,.detail-block ul{padding-left:21px;margin:0}.detail-block li{margin:0 0 10px;line-height:1.55}.detail-block a{color:#0e625e;text-decoration:underline}.day-breakdown{margin-top:26px;display:grid;gap:12px}.day-breakdown article{border-left:3px solid #bba47d;background:#faf9f4;padding:16px 19px;border-radius:3px 12px 12px 3px}.day-breakdown .when{font-size:11px;font-weight:700;letter-spacing:.16em;color:#b68e49}.detail-notice{border-top:1px solid #e6e8e2;padding-top:16px;margin-top:23px;color:#657777;font-size:13px}@media(max-width:850px){.detail-cols{grid-template-columns:1fr}.details-zone{padding:19px}}
+
+/* Hero header overlap fix: reserve a dedicated navigation row and clear separation
+   from the region kicker on both desktop and mobile. */
+.hero{min-height:740px;height:auto;padding:155px 0 75px;align-items:center}
+.topbar{top:0;padding:24px 0}
+.hero .wrap:not(.nav){min-width:0}
+.hero .caps{display:block;margin-bottom:22px;line-height:1.6}
+.hero h1{margin-top:0;overflow-wrap:normal}
+.nav{flex-wrap:wrap;row-gap:14px}
+.brand{flex-shrink:0;white-space:nowrap}
+.navlinks{flex-wrap:wrap;justify-content:flex-end;row-gap:8px}
+@media(max-width:800px){
+ .hero{padding-top:178px;padding-bottom:62px;min-height:760px}
+ .topbar{padding:20px 0}
+ .nav{align-items:flex-start;flex-direction:column;gap:11px}
+ .navlinks{justify-content:flex-start;gap:9px 16px}
+ .hero .caps{margin-bottom:15px}
+}
+@media(max-width:560px){
+ .hero{padding-top:185px;min-height:760px;padding-bottom:45px}
+ .hero h1{font-size:clamp(46px,12vw,60px);line-height:1.06}
+ .hero-stats{margin-top:30px;gap:18px 25px}
+ .hero p{font-size:15px}
+ .brand{font-size:12px}
+ .navlinks{font-size:10px;gap:8px 12px}
+}
 </style></head><body>
 <header class="hero" id="top"><div class="hero-pic" id="heroPic"></div><div class="topbar"><div class="wrap nav"><div class="brand">THE SEPTEMBER JOURNEY <span style="color:#d6b980">✦</span></div><div class="navlinks"><a href="#route">THE ROUTE</a><a href="#destinations">DESTINATIONS</a><a href="#driver">SICHUAN TRANSFERS</a><a href="#calendar">21 DAYS</a></div></div></div><div class="wrap"><div class="caps">TAIWAN • SICHUAN • HUNAN • CHONGQING</div><h1>Three weeks.<br>Two worlds.<br>One adventure.</h1><p>From Taiwanese night markets and emerald mountain lakes to turquoise lagoons, towering sandstone spires and the electric skyline of Chongqing.</p><div class="hero-buttons"><a href="#destinations" class="pill solid">Explore the journey ↓</a><a href="#calendar" class="pill">See all 21 days ↓</a></div><div class="hero-stats"><div class="stat"><b>21</b><span>DAYS · 01–21 SEP 2027</span></div><div class="stat"><b>2</b><span>COUNTRIES / REGIONS</span></div><div class="stat"><b>2</b><span>COUNTRIES / REGIONS TO EXPLORE</span></div><div class="stat"><b>CKG</b><span>FLY HOME FROM CHONGQING</span></div></div></div></header>
 <main><section class="section" id="route"><div class="wrap"><div class="section-head"><div><div class="caps eyebrow">01 / THE BIG PICTURE</div><h2>A route built for discovery.</h2></div><p>Start in Amsterdam, travel through Taiwan, head west into Sichuan, continue through Chongqing and Zhangjiajie, then return to Chongqing for your flight home.</p></div><div class="overview"><div class="route-list"><div class="caps eyebrow">TRAVEL FLOW</div><div class="route-row"><span>01—08 SEP</span><strong>TAIWAN</strong><small>Taipei · Jiufen · Sun Moon Lake · Tainan</small></div><div class="route-row"><span>09—11 SEP</span><strong>CHENGDU</strong><small>Pandas · teahouses · food</small></div><div class="route-row"><span>12—14 SEP</span><strong>HUANGLONG + JIUZHAIGOU</strong><small>High-speed rail · national parks · lakes</small></div><div class="route-row"><span>15—16 SEP</span><strong>CHONGQING</strong><small>Riverfront · metro · night skyline</small></div><div class="route-row"><span>17—19 SEP</span><strong>ZHANGJIAJIE</strong><small>Sandstone pillars · Tianmen Mountain</small></div><div class="route-row"><span>20—21 SEP</span><strong>RETURN VIA CHONGQING</strong><small>Train back · flight to Amsterdam</small></div></div><div class="quote"><div><div class="caps" style="color:#d9b987">THE ROUTE, IN ONE LINE</div><h2>Taipei → Sun Moon Lake → Tainan → Chengdu → Huanglong → Jiuzhaigou → Chongqing → Zhangjiajie → Chongqing.</h2></div><p class="small">Why this works: a central Taiwan lake escape, carefully arranged private transfers, and no unnecessary Shanghai detour.</p><div class="small">TRAVEL STYLE &nbsp; • &nbsp; NATURE FIRST &nbsp; • &nbsp; WITH CITY BREAKS</div></div></div></div></section>
